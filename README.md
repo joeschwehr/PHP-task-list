@@ -22,5 +22,5 @@
 
 3. **MySQL with Docker**: If you're using MySQL with Docker, you can run the following command to start the MySQL service:
     ```
-    docker-compose up
+    docker compose up
     ```
