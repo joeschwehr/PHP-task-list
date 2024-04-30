@@ -24,3 +24,7 @@
     ```
     docker compose up
     ```
+
+## The main files
+
+The main things that have been modified is in the view folder, and then there's web.php
