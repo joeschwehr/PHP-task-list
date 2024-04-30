@@ -7,14 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Running the application
 
-This is how to run the pages: php artisan serve, then goto [localhost:8000](http://localhost:8000/tasks).   
+1. **Run the Application**: To run the application locally, use the following command:
+    ```
+    php artisan serve
+    ```
+   Then, navigate to [localhost:8000/tasks](http://localhost:8000/tasks) in your web browser.
 
+2. **Tailwind CSS Styling**: To automatically compile Tailwind CSS styles as you add classes to HTML tags, run the following command:
+    ```
+    npx tailwindcss -i ./resources/css/app.css -o ./public/output.css --watch
+    ```
 
-Also, be running this command to add styles to your TW CSS output file as you're adding classes to HTML tags.   
-npx tailwindcss -i ./resources/css/app.css -o ./public/output.css --watch
-
-
-We also need to do: docker compose up
-to run mysql. 
+3. **MySQL with Docker**: If you're using MySQL with Docker, you can run the following command to start the MySQL service:
+    ```
+    docker-compose up
+    ```
