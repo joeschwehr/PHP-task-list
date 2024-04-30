@@ -24,6 +24,7 @@
     ```
     docker compose up
     ```
+4. You can access the DB here: http://127.0.0.1:8080/?server=mysql
 
 ## The main files
 
