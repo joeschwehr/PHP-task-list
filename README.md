@@ -25,7 +25,8 @@
     docker compose up
     ```
 4. You can access the DB here: http://127.0.0.1:8080/?server=mysql
+5. Also: http://localhost/phpmyadmin/index.php
 
 ## The main files
 
-The main things that have been modified is in the view folder, and then there's web.php
+The main things that have been modified is in the view folder, and then there's web.php.
